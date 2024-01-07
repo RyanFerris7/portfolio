@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
 /* Navigation Links */
 
 .uppercase {
@@ -10,14 +13,69 @@
     color:white;
 }
 
-.nav-button {
+.menu-item {
     border: solid 3px;
-    border-radius: 20px;
-    padding:3px 10px;
+    border-radius: 24px;
+    padding:2px 6px;
     margin-top: 5px;
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+
+.menu-item a i {
+    align-items: center;
+    margin-right: 5px;
+    color:#DD3A4F;
+}
+
+.name {
+    margin-top: -30px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.title {
+    font-family: 'Roboto',sans-serif;
 }
 
 ul {
     display: inline-block;
     text-align: left;
   }
+
+  .line-break {
+    border-color:#B7190E;
+    border-width: 0.5px;
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  body {
+    position: relative;
+    color: #fff; /* Text color */
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: -10%; /* Adjust the top and left values to control the positioning */
+    left: -10%;
+    width: 120%; /* Oversize the width */
+    height: 120%; /* Oversize the height */
+    background-image: url('../images/Transcend.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+    z-index: -1; /* Place the overlay behind the content */
+    filter: blur(20px) brightness(0.8); /* Optional: Apply blur to the overlay */
+
+}
