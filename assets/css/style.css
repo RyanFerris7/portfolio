@@ -14,6 +14,8 @@
 /*    background: rgba(0, 0, 0, 0.5);*/
 }
 
+/* Menu */
+
 .menu-item {
     border: solid 3px;
     border-radius: 24px;
@@ -41,6 +43,8 @@
 .menu-item:hover{
     color:#DD3A4F;
 }
+
+/* Body */
 
 .name {
     margin-top: -30px;
@@ -100,8 +104,58 @@ body::before {
 
 }
 
+/* Footer */
+
 .footer-content p {
     color: #fff;
     font-family: 'Roboto',sans-serif;
     font-weight: 200;
+}
+
+/* Social Icons */
+
+.social-icon {
+    font-size: 30px;
+    border: #DD3A4F;
+    color: #fff;
+}
+
+.social-icon:hover {
+    color:#DD3A4F;
+    border: #DD3A4F;
+}
+
+/* Carousel */
+
+#myImageCarousel {
+    max-width: 100%;
+    margin: 20px auto; /* Adjust the margins */
+}
+
+.carousel-inner {
+    border-radius: 10px;
+    overflow: hidden; /* Hide the overflow for rounded corners */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#myImageCarousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    #myImageCarousel {
+        max-width: 80%; /* Adjust the width for smaller screens */
+    }
+
+    .carousel-item img {
+        max-height: 100%; /* Adjust the maximum height for smaller screens */
+    }
 }
