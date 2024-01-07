@@ -11,6 +11,7 @@
 .body-text {
     background-color: red;
     color:white;
+/*    background: rgba(0, 0, 0, 0.5);*/
 }
 
 .menu-item {
@@ -44,6 +45,7 @@
 
 .title {
     font-family: 'Roboto',sans-serif;
+    font-weight: 300;
 }
 
 ul {
@@ -58,9 +60,22 @@ ul {
     margin: 20px auto;
   }
 
+  .main-text {
+
+    position: relative;
+  }
+
+
   body {
     position: relative;
     color: #fff; /* Text color */
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../images/Solid_black.png');
+    background-size: cover;
 }
 
 body::before {
@@ -75,7 +90,7 @@ body::before {
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
-    z-index: -1; /* Place the overlay behind the content */
+    z-index: -2; /* Place the overlay behind the content */
     filter: blur(20px) brightness(0.8); /* Optional: Apply blur to the overlay */
 
 }
