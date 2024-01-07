@@ -1,0 +1,23 @@
+/* Navigation Links */
+
+.uppercase {
+    text-transform: uppercase;
+}
+/* Body Text */
+
+.body-text {
+    background-color: red;
+    color:white;
+}
+
+.nav-button {
+    border: solid 3px;
+    border-radius: 20px;
+    padding:3px 10px;
+    margin-top: 5px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+  }
