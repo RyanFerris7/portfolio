@@ -128,19 +128,19 @@ body::before {
 /* Carousel */
 
 #myImageCarousel {
-    max-width: 100%;
-    margin: 20px auto; /* Adjust the margins */
+    height:60%;
+    width: 60%;
+    margin: 20px auto;
 }
 
 .carousel-inner {
     border-radius: 10px;
-    overflow: hidden; /* Hide the overflow for rounded corners */
+    overflow: hidden;
 }
 
 .carousel-item img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
+    width: 75%;
+    height: 75%;
     object-fit: cover;
 }
 
