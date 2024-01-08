@@ -20,7 +20,7 @@
 .menu-item {
     border: solid 3px;
     border-radius: 24px;
-    padding: 2px 10px;
+    padding: 4px 20px;
     margin-top: 25px;
     color: #2B0C0B;
     text-decoration: none;
@@ -43,6 +43,7 @@
 
 .menu-item:hover {
     color: #DD3A4F;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Body */
@@ -71,7 +72,6 @@ ul {
 }
 
 .main-text {
-
     position: relative;
 }
 
@@ -117,7 +117,7 @@ body::before {
 /* Social Icons */
 
 .social-icon {
-    font-size: 30px;
+    font-size: 60px;
     border: #DD3A4F;
     color: #fff;
 }
@@ -125,6 +125,7 @@ body::before {
 .social-icon:hover {
     color: #DD3A4F;
     border: #DD3A4F;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Carousel */
