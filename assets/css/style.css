@@ -101,7 +101,7 @@ body::before {
     background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
     z-index: -2; /* Place the overlay behind the content */
     filter: blur(20px) brightness(0.8); /* Optional: Apply blur to the overlay */
-
+    background-clip: padding-box;
 }
 
 /* Footer */
