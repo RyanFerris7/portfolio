@@ -147,8 +147,15 @@ body::after {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     letter-spacing: 5px;
+    font-size: 20px;
 }
 
+@media (max-width: 300px) {
+    .footer-content p {
+        font-size: 14px;
+    }
+    
+}
 /* Social Icons */
 
 .social-icon {
@@ -219,4 +226,5 @@ body::after {
     .menu-item {
         font-size: 14px;
     }
+    
 }
