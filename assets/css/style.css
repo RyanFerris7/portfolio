@@ -86,22 +86,21 @@ ul {
     background-image: url('../images/Solid_black.png');
     background-size: cover;
 }
-
 body::before {
     content: '';
     position: fixed;
-    top: -10%; /* Adjust the top and left values to control the positioning */
-    left: -10%;
-    width: 120%; /* Oversize the width */
-    height: 120%; /* Oversize the height */
-    background-image: url('../images/Transcend.jpg');
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
     z-index: -2; /* Place the overlay behind the content */
-    filter: blur(20px) brightness(0.8); /* Optional: Apply blur to the overlay */
-    background-clip: padding-box;
+    overflow: hidden; /* Ensure overflow is hidden to prevent edges from showing */
+    box-sizing: border-box; /* Include padding and border in the overlay's dimensions */
 }
 
 /* Footer */
