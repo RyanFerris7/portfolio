@@ -158,3 +158,8 @@ body::before {
         max-height: 100%; /* Adjust the maximum height for smaller screens */
     }
 }
+
+.carouselTitle {
+    font-family: 'Roboto',sans-serif;
+    text-shadow:0px 0px 10px rgba(221, 58, 79, 1);
+}
