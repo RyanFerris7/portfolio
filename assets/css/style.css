@@ -130,6 +130,8 @@ body::before {
 /* Carousel */
 
 #myImageCarousel {
+    max-height: 50%;
+    max-width: 50%;
     height: 60%;
     width: 60%;
     margin: 20px auto;
@@ -140,15 +142,10 @@ body::before {
     overflow: hidden;
 }
 
-.carousel-item img {
-    width: 75%;
-    height: 75%;
-    object-fit: cover;
-}
-
 #myImageCarousel {
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 500px;
 }
 
 /* Media query for mobile devices */
